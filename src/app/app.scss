@@ -1,0 +1,24 @@
+// http://ionicframework.com/docs/theming/
+.custom {
+    background-color: grey;
+   }
+   
+  /*Set the background to transparent for ion-item*/
+  .custom .item {
+    background-color: transparent;
+    border:none;   /*Removes all borders*/
+    color: white;    /*Text color for each item*/
+  }
+   
+   
+  .custom .item-complex .item-content, .dark .item-radio .item-content {
+    background-color: transparent;
+  }
+   
+  /*Just makes the type white*/
+  .custom h2,
+  .custom h3,
+  .custom p,
+  .custom a {
+    color: white;  /*Text color for each item, overrides the color property above*/
+  }
